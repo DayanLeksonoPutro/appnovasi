@@ -1,18 +1,33 @@
-# Planner: Katalog Produk Sederhana (PHP)
+# Project Name: Katalog Produk Sederhana (PHP)
 
 ## 1. Ringkasan Proyek
 Website sederhana berbasis PHP untuk menampilkan daftar produk jualan (misalnya sepatu atau tas). Katalog tidak menggunakan database MySQL/SQL yang rumit, melainkan mengambil data berupa daftar produk dari sebuah file `.json` lokal di dalam folder.
+- **Target Pengguna:** Umum / Pemula
 
 ## 2. Tech Stack & Aturan
-- **Bahasa Server:** PHP murni (Native)
-- **Tampilan:** HTML & CSS (Framework ditiadakan agar paham dasar)
-- **Sumber Data:** File `data.json`
+- **Framework Utama:** PHP (Native), HTML Statis, CSS
+- **Target Platform:** Web
+- **State Management:** Tidak perlu
+- **Penyimpanan:** Local JSON (`data.json`)
+- **Desain UI:** Modern Minimalis 
+- **Color Palette:** Bebaskan AI (Auto)
+- **Typography (Huruf):** Poppins
+- **Bahasa Aplikasi:** Bahasa Indonesia Formal
+- **Icon / Gaya Animasi:** Animasi Melayang (Hover) premium di setiap kotak produk
 
-## 3. Fitur Utama
-- Halaman depan berisikan susunan *card* atau kotak produk berjajar.
-- Menampilkan gambar, nama, dan harga pada setiap produk tanpa butuh loading pangkalan data (database).
+## 3. Struktur Menu (Navigasi)
+- **Halaman Depan:** Halaman berisi susunan *card* atau kotak produk berjajar. Menampilkan gambar, nama, dan harga pada setiap produk tapa butuh loading pangkalan data (database).
+- **Aksi Khusus:** Tidak ada interaksi kompleks, hanya untuk baca/katalog.
 
-## 4. Tahapan Pengerjaan (Milestones)
+## 4. Struktur Folder yang Diinginkan
+```text
+/
+ ┣ data.json
+ ┣ index.php
+ ┗ style.css
+```
+
+## 5. Tahapan Pengerjaan (Milestones)
 
 ✅ **Fase 1: Tampilan Teras (HTML/CSS)**
 - Buat file bernama `index.php`.
